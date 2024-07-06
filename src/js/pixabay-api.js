@@ -1,3 +1,8 @@
+import SimpleLightbox from "simplelightbox"; 
+import "simplelightbox/dist/simple-lightbox.min.css"; 
+
+ 
+ 
  export function fetchImages(value){
     const BASE_URL = "https://pixabay.com";
     const END_POINT = "/api/";
